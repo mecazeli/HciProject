@@ -1,0 +1,743 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Inter";
+}
+.navbar{
+   background-color: #418B27;
+   padding:10px;
+}
+
+.container-fluid{
+  display:flex;
+  align-items:center;
+  width:100%;
+  text-decoration: none;
+}
+
+.container-logo{
+  display:flex;
+  align-items:center;
+  text-decoration: none;
+}
+
+.container-logo h3{
+   color:#ffff;
+   font-family:"Adamina",serif;
+   margin-left:10px;
+}
+
+.container-logo img{
+  height:70px;
+  width:auto;
+}
+
+.d-flex button{
+  background-color: #EBF1EA;
+}
+
+.dropdowns{
+  background-color: #ffff;
+  flex-grow:1;
+  list-style-type:none;
+  padding:10px;
+  text-align: center;
+}
+
+.dropdowns .nav-item{
+  flex:1;
+  text-align:center;
+  font-weight:bold;
+}
+
+.dropdowns .nav-link{
+  color:black;
+}
+.nav-link{
+  margin-left:5px;
+}
+
+ ul.dropdown-menu{
+  text-align:center;
+  background-color:#D0F2C4;
+  margin: 0 auto;
+}
+
+#about{
+  margin-left: 20px;
+}
+
+/* ul#admin.dropdown.menu{
+  margin-left: -50px;
+} */
+
+a.btn btn-light btn-md ms-auto{
+  padding-right: 10px;
+}
+
+/* BANNER */
+
+.ul.nav.dropdowns{
+  padding: 0;
+}
+.banner{
+  max-width: 100%;
+  position:relative;
+  overflow:hidden;
+}
+
+.banner img{
+      width: 100vw;
+      display: block;
+      height: 40vh;
+}
+
+.breadcrumb {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  background-color: rgba(255, 255, 255, 0.3); 
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white; 
+  font-weight: 500;
+}
+
+ol.breadcrumb, .breadcrumb a{
+  font-size: 18px;
+}
+
+.breadcrumb-item a {
+  color: white; 
+  text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: underline;
+}
+
+li.breadcrumb-item.active {
+  color: white; 
+}
+
+li.breadcrumb-item.active::before {
+  color: white; 
+}
+
+
+#cvsu, #QA, #QM{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 10px;
+  color: white;
+  white-space: nowrap;
+}
+
+#cvsu{
+  top: 20%;
+  font-size: 60px;
+  font-family:"Adamina",serif;
+ 
+}
+#QA{
+  top: 50%;
+  color: white;
+  font-size: 27px;
+}
+
+#QM{
+  top: 65%;
+  font-size: 25px;
+}
+
+/* CARD IMAGES */
+ .announcements{
+   background-color: #EBF1EA;
+   margin:40px 0;
+   padding-bottom: 20px;
+ }
+
+ .announcements h3{
+  background-color: #C6AD2C;
+  color:#ffff;
+  text-align:center;
+  padding:10px;
+  margin-bottom:20px;
+ }
+
+ .announcements .row{
+   padding:20px;
+ }
+
+ .announcements .card-title{
+   text-decoration-line: underline;
+   font-size:3vh;
+   font-weight:bold;
+ }
+
+ .announcements .card-text{
+    margin-top:50px;
+    font-size:2vh;
+ }
+ .card-button{
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+ }
+
+ .card-button button{
+   background-color:#C6AD2C;
+   color:white;
+   font-size:2vh;
+   font-weight:bold;
+ }
+
+ /* STRATEGIC PLAN */
+
+ .strategicPlan{
+   display:flex;
+   justify-content:center;
+   padding:10px;
+ }
+ .strategicPlan img{
+    max-width:100%;
+    height:auto;
+    display:block;
+    margin:auto;
+ }
+
+
+/* FOOTER */
+footer {
+  background-color: #21282E;
+  color: #ffffff;
+  padding: 40px 20px;
+  margin-top:50px;
+}
+
+.footer-container {
+  width:100%;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.footer-logo .logo-container {
+  display: flex;
+  align-items: center;
+  font-family:"Adamina","serif";
+}
+
+.footer-logo .logo-container h4{
+  font-size:3vh;
+}
+
+.footer-logo img {
+  height: 60px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.footer-description {
+  margin-left:80px;
+  font-family:"Adamina","serif";
+  font-size:2vh;
+}
+
+.footer-contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-contact ul li {
+  margin-bottom: 8px;
+}
+
+.footer-social .social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social .social-icons a img {
+  height: 30px;
+  width: 30px;
+}
+
+.footer-content h5{
+  text-decoration-line:underline;
+  font-size:2.5vh;
+  padding:10px;
+}
+
+.footer-content i,a{
+  padding:10px;
+  font-size:2.5vh;
+  color: #ffffff;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 20px 0;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 2vh;
+}
+
+/* INFOS BANNER  */
+.infos{
+  text-align: center;
+  background-color:#418B27;
+  color: white;
+  margin-top:40px;
+  padding: 5px;
+}
+
+.infos ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.infos i{
+  font-size: 35px;
+}
+
+.infos h3{
+  margin-top: 15px;
+}
+
+.infos h6{
+  font-weight: 400;
+}
+
+/* ABOUT PAGES */
+
+/* MISSION, VISION  */
+.page-banner img{
+  width: 100%;
+}
+
+.mandate, .vision, .mission, .quality, 
+.values, .history, .hymn, .admission, 
+.results, .events{
+  text-align: justify;
+  border: 1px solid rgb(223, 223, 223);
+  padding: 10px;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 5px rgba(145, 145, 145, 0.1);
+  margin: 20px auto; 
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.mandate h3, .vision h3, .mission h3, .quality h3, 
+.values h3, .history h3, .hymn h3{
+  color: #27642b;
+}
+
+.mithiin, #mandate{
+  font-style: italic;
+}
+
+.values ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.history span{
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+#hymn{
+  text-align: center;
+}
+
+.yt-video {
+  position: relative;
+  width: 100%;
+  max-width: 500px; 
+  padding-bottom: 30%; 
+  margin: 0 auto; 
+  overflow: hidden;
+}
+
+.yt-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* BOARD OF REGENTS and CONTACTS */
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  table-layout: fixed;
+  font-weight: 500;
+}
+
+.table-container {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: auto;
+}
+
+.table-container2{
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow-x: auto;
+}
+
+.table-container td,.table-container2 td{
+  border: 1px solid #7a7a7a;
+  padding: 8px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.table-container th, .table-container2 th{
+  background-color: #298a30;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  padding-left: 10px;
+  line-height: 35px;
+  font-size: 17px;
+  border: 1px solid #4d4d4d;
+}
+
+.table-container, .table-container2 a{
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
+.table-container h6{
+  text-align: left;
+}
+#first-column{
+  max-width: 10px;
+  width: 30%;
+  font-weight: 500;
+  border-collapse: collapse;
+  word-break: break-word;
+}
+
+
+.regents th, .contacts th,.links th,
+ .application-dates th, .submission th{
+  background-color: #298a30;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  padding-left: 10px;
+  line-height: 35px;
+}
+
+.regents td {
+  background-color: #fff;
+}
+
+span{
+  text-align: center;
+}
+
+span h5{
+  font-size: 17px;
+  font-weight: 400;
+}
+
+span h4{
+  font-size: 30px;
+}
+
+.table-container h5{
+  font-weight: 500;
+  color: #27642b;
+}
+
+.programs h4{
+  text-align: center;
+  margin-top: 20px;
+  color: #27642b;
+}
+
+.programs h5{
+  color: black;
+  font-size: 18px;
+  text-align: left;
+  margin: 15px 0;
+}
+
+.programs.table-container{
+  align-items: left;
+  text-align: left;
+}
+
+#off{
+  font-weight: 500;
+}
+
+.admission{
+  font-weight: 500;
+}
+
+.admission h5{
+  font-size: 16px;
+  color: #27642b;
+  font-weight: 700;
+}
+.admission p{
+  font-size: 15px;
+}
+
+.admission h3{
+  font-size: 25px;
+  color: #27642b;
+}
+.admission h4{
+  color: red;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+h4#submission, h4#online{
+  font-size: 20px;
+  color: #27642b;
+}
+
+.prohibited{
+  padding: 20px;
+  margin: 0 auto;
+}
+
+
+.requirements h6{
+  color: #D7C100;
+  text-align: left;
+}
+
+.prohibited ul, .procedure ul, ol,  .requirements ul{
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+.prohibited ul li {
+  margin-bottom: 10px;
+}
+
+.results h4, .results h5, h6{
+  text-align: center;
+  color: #2f8634;
+}
+.results p{
+  font-size: 20px;
+}
+#numbers{
+  font-size: 20px;
+  padding: 0 20px;
+  text-align: center;
+}
+#note{
+  font-size: 18px;
+  padding: 0 20px;
+}
+
+.events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .events2{
+  align-self: flex-start;
+  max-width: 100%;
+  width: 100%;
+  margin-left: 180px;
+} */
+
+.card {
+  width: 100%; 
+  max-width: 900px;
+}
+
+.card p{
+  font-size: 15px;
+}
+
+.card h5{
+  text-decoration: none;
+  color: #107020;
+  font-size: 23px;
+}
+
+.img-fluid {
+  width: 100%; 
+  height: auto; 
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+#card-btn{
+  background-color: #d4d23e;
+  color: black;
+  border: none;
+}
+
+#card-btn:hover{
+  background-color: #ad9d0a;
+  color: white;
+}
+
+
+@media (max-width: 800px) {
+  .card {
+      width: 100%; 
+  }
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 320px) and (max-width: 767px) {
+  #cvsu {
+    font-size: 7vw; 
+    top: 19%; 
+  }
+
+  #QA {
+    font-size: 3.3vw; 
+    top: 47%; 
+  }
+
+  #QM {
+    font-size: 3.3vw; 
+    top: 60%; 
+  }
+
+  .mandate, .vision, .mission, .quality, 
+  .values, .history, .hymn, .table-container {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+ }
+
+   .mandate h3, .vision h3, .mission h3, 
+   .quality h3, .values h3, .history h3, 
+   .hymn h3 {
+   font-size: 1.3rem;
+ }
+
+   .values ul {
+   flex-direction: column;
+ }
+
+   #hymn {
+   width: 90%;
+ }
+ 
+
+@media (max-width: 500px) {
+  input.form-control form-control-sm me-2{
+    width: 50%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-logo {
+    text-align: center;
+  }
+
+  .footer-social .social-icons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  #cvsu {
+    font-size: 7vw; 
+    top: 20%; 
+  }
+
+  #QA {
+    font-size: 3vw; 
+    top: 45%; 
+  }
+
+  #QM {
+    font-size: 3vw; 
+    top: 55%; 
+  }
+
+ 
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  
+  .mandate, .vision, .mission, .quality, 
+  .values, .history, .hymn {
+      width: 90%;
+      padding: 15px;
+      font-size: 16px;
+  }
+
+  .mandate h3, .vision h3, .mission h3, 
+  .quality h3, .values h3, .history h3, 
+  .hymn h3 {
+      font-size: 1.5rem;
+  }
+}
+
+@media(max-width:800px){
+  .nav.dropdowns{
+    display: none;
+  }
+}
+
+@media(min-width:801px){
+  button.btn.btn-outline{
+    display: none;
+  }
+  a.btn{
+    display: none;
+  }
+}
+}

@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="viewMore.css" rel="stylesheet" >
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Office of the President </title>
+</head>
+<body>
+   <!-- NAVBAR AND DROPDOWNS -->
+  <nav class="navbar ">
+    <div class="container-fluid">
+      <div class="container-logo"> 
+        <img src="Photos/cvSU logo.png">
+        <h3> Cavite State University </h3>
+      </div>
+
+      <nav class="navbar ms-auto">
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input class="form-control form-control-sm me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
+          </form>
+          <a class="btn btn-light btn-sm ms-2 d-block d-lg-none " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+        </div>
+      </nav>   
+</nav>    
+<ul class="nav dropdowns">
+    <li class="nav-item dropdown">
+        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About <i class="bi bi-chevron-compact-down"></i>
+        </a>
+        <ul class="dropdown-menu" id="about">
+          <li><a class="dropdown-item" href="mission.html">Mandate, Mission, Vision</a></li>
+          <li><a class="dropdown-item" href="history.html">History</a></li>
+          <li><a class="dropdown-item" href="hymn.html">CvSU Hymn</a></li>
+          <li><a class="dropdown-item" href="regents.html">Board of Regents</a></li>
+          <li><a class="dropdown-item" href="contacts.html">Contacts and Directory</a></li>
+      </ul>
+  </li>
+    </li>
+    
+    <li class="nav-item dropdown">
+        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Administration <i class="bi bi-chevron-compact-down"></i>
+        </a>
+        <ul class="dropdown-menu" id="admin">
+            <li><a class="dropdown-item" href="#">Office of the President</a></li>
+            <li><a class="dropdown-item" href="#">Office of the Vice <br> President for Academic Affairs </a></li>
+            <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Research and Extension</a></li>
+            <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Administrative and Support Services
+            <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Business amd Resource Generation</a></li>
+            <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Planning and Development</a></li>
+
+            </ul>
+    </li>
+    <li class="nav-item dropdown" id="admission">
+        <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Admission <i class="bi bi-chevron-compact-down"></i>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="admission.html">First Semester SY 2024-2025 <br>Application for Admission</a></li>
+            <li><a class="dropdown-item" href="results.html">Admission Result <br> for SY 2024-2025</a></li>
+        </ul>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Campuses <i class="bi bi-chevron-compact-down"></i>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Bacoor Campus</a></li>
+            <li><a class="dropdown-item" href="#">Carmona Campus</a></li>
+            <li><a class="dropdown-item" href="#">Cavite City Campus</a></li>
+            <li><a class="dropdown-item" href="#">General Trias Campus</a></li>
+            <li><a class="dropdown-item" href="#">Imus Campus</a></li>
+            <li><a class="dropdown-item" href="#">Maragondon Campus</a></li>
+            <li><a class="dropdown-item" href="#">Naic Campus</a></li>
+            <li><a class="dropdown-item" href="#">Rosario Campus</a></li>
+            <li><a class="dropdown-item" href="#">Silang Campus</a></li>
+            <li><a class="dropdown-item" href="#">Tanza Campus</a></li>
+            <li><a class="dropdown-item" href="#">Trece Martires City Campus</a></li>
+        </ul>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services <i class="bi bi-chevron-compact-down"></i>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="http://library.cvsu.edu.ph/landing/" target="_blank">Integrated Library System</a></li>
+            <li><a class="dropdown-item" href="https://services.cvsu.edu.ph/cvsuResearch/" target="_blank">Research IS</a></li>
+            <li><a class="dropdown-item" href="calendar.html" target="_blank">University Calendar</a></li>
+            <li><a class="dropdown-item" href="events.html" target="_blank">University Events</a></li>
+            <li><a class="dropdown-item" href="https://cvsu.edu.ph/jobs/" target="_blank">Job Portal</a></li>
+            <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1mzrxnFhyFr7UApISaEI1AE7KlVhG6bMy" target="_blank">Downloadable Forms</a></li>
+            <li><a class="dropdown-item" href="https://cvsu.edu.ph/procurement/" target="_blank">Procurement</a></li>
+        </ul>
+    </li>
+    
+    <li class="nav-item dropdown">
+      <a class="nav-link " href="programs.html" role="button" >
+           Programs 
+      </a>
+</ul>
+</div>
+
+<!-- SIDEBAR MENU -->
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title " id="offcanvasExampleLabel">MENU</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body text-center">
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        About <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Mission, vision</a></li>
+        <li><a class="dropdown-item" href="#">History</a></li>
+        <li><a class="dropdown-item" href="#">CvSU Hymn</a></li>
+        <li><a class="dropdown-item" href="#">Board of Regents</a></li>
+        <li><a class="dropdown-item" href="#">Contacts and Directory</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Admission <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Undergraduate</a></li>
+        <li><a class="dropdown-item" href="#">Graduate</a></li>
+        <li><a class="dropdown-item" href="#">International</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Administration <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Office of the President</a></li>
+        <li><a class="dropdown-item" href="#">Office of the Vice
+                                        <br> President for Academic Affairs</a></li>
+        <li><a class="dropdown-item" href="#">Departments</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Campuses <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Main Campus</a></li>
+        <li><a class="dropdown-item" href="#">Satellite Campuses</a></li>
+        <li><a class="dropdown-item" href="#">Virtual Tour</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Services <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Library</a></li>
+        <li><a class="dropdown-item" href="#">Counseling</a></li>
+        <li><a class="dropdown-item" href="#">IT Support</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Programs </i>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- BANNER -->
+
+<div class="banner">
+  <img src="Photos/cvsu.jpg" alt="">
+  <h4 id="title1">Office of the President </h4>
+  <a href="landingPage.html"><h4 id="title2">Home >> Office of the President</h4></a> 
+</div>
+    
+  <!-- CONTAINER FOR LOCAL COLLABORATION AND LINKAGES OFFICE -->
+
+   <div class="announcements" id="linkagesOffices">
+       <h4 id="title">INTERNATIONAL AND LOCAL COLLABORATION AND LINKAGES 
+           OFFICE
+       </h4>
+       <hr>
+       <div class="organizational">
+        <img src="Photos/organizational.png" alt="">
+       </div>
+        <p>Functions of the International and Local Collaboration and Linkages Office:</p>
+        <li>Act as the clearing house for local and international MOUs and MOAs for endorsement
+           to the Administrative Council and Board of Regents;</li>
+        <li>Identify and discuss issues to the Executive Council that may impact on University’s Internationalization Strategy;</li> 
+        <li>Respond to proposals referred by Colleges/Campuses that relate to local and international linkages;</li>
+        <li>Ensure transfer of information, knowledge and identification of linkages in both local and international to the Academic Council of Colleges and Campuses;</li>
+        <li>Provide forum for the development and exchange of good practices in international and local activities;</li>
+        <li>Serve as liaison officer in relation to local and international research and academic collaboration with other agencies; and</li>
+        <li>Manage all communication/ documents in relation to student and faculty exchanges, study visit and the like between and among academic partners.</li>
+   </div>
+
+   <div class="gadCenter">
+        <h4 id="gadCenterTitle"> GENDER AND DEVELOPMENT RESOURCE 
+                  CENTER
+        </h4>
+
+        <div class="organizational">
+          <img src="Photos/gadCenter.png" alt="">
+         </div>
+    
+<!-- GENDER AND DEVELOPMENT RESOURCES CENTER -->
+         <div class="genderAndDevelopment">
+          <div class="table-container">
+                 <table class="links">
+                     <tbody>
+                         <tr>
+                             <td><span style="color:green; font-weight: bold;">Vision</span><br><br>&nbsp;
+                                A gender responsive educational institution where 
+                                stakeholders enjoy equal responsibilities and
+                                 opportunities.
+                                  </td> <br>
+                             <td>
+                              <span style="color:green; font-weight: bold;">Mission</span><br><br>&nbsp;
+                              CvSU–GAD Resource Center shall integrate and advocate gender equity and 
+                              equality principles  and perspectives in providing instruction, research
+                              and extension services.  
+
+                            </td>
+                         </tr>
+                         <tr>
+                             <td><span style="color:green; font-weight: bold;">Goals</span><br><br>
+                              The GAD Resource Center shall aim for:<br>
+                               1.Sustainable and gender responsive instruction, research, community development and involvement;<br>
+                               2.Gender equity and equality among the academic community;<br>
+                               3.Sustainable partnership and cooperation among stakeholders; and<br>
+                               4.Gender responsive governance.<br><br>
+
+                               <span style="color:green; font-weight: bold;">Services Offered</span><br>
+                                   <span style="font-weight: bold;"> 1. Capacity Building</span><br>&nbsp;
+                                    Seminar/Workshop/Training on:
+                                     <li>Gender Sensitivity</li>
+                                     <li>GAD Planning and Budgeting</li>
+                                     <li>Gender Analysis and GA Tools</li>
+                                     <li>Harmonized GAD Guidelines</li>
+                                     <li>Gender Mainstreaming Evaluation Framework</li>
+                                     <li>Integration of GAD in Instruction</li>
+                                     <li>Integration of GAD in Research</li>
+                                     <li>Integration of GAD in Extension</li>
+                                     <li>Responsible Parenthood and Family Planning</li>
+                                     <li>Others</li>
+                                     <span style="font-weight:bold;">2. Livelihood and Entrepreneurship</span><br>
+                                     <span style="font-weight:bold;">3.Counselling</span>
+                                  </td>
+                             <td> <span style="color:green; font-weight: bold; ">Objectives</span><br><br>
+                                1.Strengthen the capacity of faculty members in the integration of GAD and other issues and concerns 
+                                   in the course syllabi and instructional materials;<br>
+                                2.Enhance data and information on women’s’ participation in politics, economics, education, peace
+                                  and order and other activities, and disseminate information to clients;<br>
+                                3.Improve level of understanding, awareness, and responsiveness of residents of the community 
+                                  and members of other organizations on GAD issues and concerns and laws on women;<br>
+                                4.Establish a repository for gender-related instruction, research, and extension materials and
+                                  other forms of literature on gender and development;<br>
+                                5.Strengthen accessibility of men and women to knowledge management products, resources and networks;<br>
+                                6.Establish networks and linkages with other local, national, and international organizations;<br>
+                                7.Ensure that the sex-disaggregated data and other vital information obtained from its operations shall be
+                                 used as basis in decision making processes; and<br>
+                                8.Sustain the gender mainstreaming efforts of the University.
+                            </td>
+                         </tr>
+                     </tbody>
+                 </table>
+          </div>
+      
+            <div class="card mb-3" style="max-width: 75%;" id="directory">
+              <div class="row g-0">
+                <h4> DIRECTORY</h4>
+                <div class="col-md-4">
+                  <img src="Photos/directoryPic.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Dr.Susan G. Tan</h5>
+                    <p class="card-text">Director <br>
+                                         General and Development Resource Center <br>
+                                         1st Floor Old College Library Building</p>
+                    <p class="card-text"><small class="text-body-secondary">Telephone No:(046) 443-2546 <br> 
+                                                                            Email Address:gadcvsu@gmail.com</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+       </div>
+    </div>
+     
+    
+     <div class="publicAffairs">
+      <h4 id="title">PUBLIC AFFAIRS AND COMMUNICATION 
+              OFFICE 
+    </h4>
+    <hr>
+      <p id="publicAffairsText">By virtue of BOR Resolution No. 8, s. 2019, the Office of the University President was restructured,
+        hence, transferring the Public Information and Community Relations Office from the Office of the
+        Vice President for External and Business Affairs to the Office of the University President and
+        renaming it as Public Affairs and Communications Office. <br> <br>
+
+        It shall have the following functions:<br>
+      <ul>
+      <li>ensure the existence of updated information profile of the University;</li>
+      <li>collect, consolidate, and reproduce the annual report of the University; and </li>
+      <li>establish linkage with local, national, and international print and broadcast media.</li>
+    </ul>
+      </p>
+
+       <!-- CONTACT US OF PUBLIC AFFAIRS -->
+        <div class="pubContactUs">
+           <h5> Contact Us: </h5>
+              <p>Email:<a href="paco@cvsu.edu.ph"></a>paco@cvsu.edu.ph </a><br>
+              Contact Number: 09163410750</p>
+        </div>
+  </div>
+
+     <!-- CONTACT US OF ALUMNI AFFAIRS -->
+      <div class="alumniAffairs">
+        <h4 id="alumniAffairsTitle">OFFICE OF ALUMNI AFFAIRS </h4>
+          <p>The CvSU Office of Alumni Affairs (CvSU-OAA), under the Office of University President, serves as a
+            communication link of the University to its alumni. The office seeks to encourage partnership
+            between CvSU and Alumni Associations; and strengthen commitment and support of the alumni
+            to CvSU’s vision and mission. It assists the CvSU Alumni Associations in planning, implementing
+            and monitoring programs, projects and activities and ensures the participation and involvement
+            of alumni in institutional programs, events and activities, whenever possible. It is also tasked to
+            represent the CvSU and CvSU Alumni Associations in both local and international programs,
+            events and activities.
+          </p>
+
+          <div class="genderAndDevelopment">
+            <div class="table-container">
+                   <table class="links">
+                       <tbody>
+                           <tr>
+                               <td><span style=" font-weight: bold;">Objectives</span><br><br>
+                                The CvSU – OAA specifically aims to: <br><br>
+                                1.Systematize procedures at the Office of Alumni Affairs to ensure quality service to CvSU and its alumni;<br>
+                                2.Perform coordinative functions between CvSU and local and International Alumni Associations in the conduct of alumni programs/projects/activities;<br>
+                                3.Establish communication link with alumni;<br>
+                                4.Systematize alumni profiling system;<br>
+                                5.Strengthen relations with international alumni
+                                    </td> <br>
+                               <td>
+                                <span style=" font-weight: bold;">Program Components and Services</span><br><br>&nbsp;
+
+                                1. Research and Documentation<br>
+                                To systematize alumni profiling the CvSU-OAA shall:<br><br>
+                              
+                                   <li>conduct alumni survey/ alumni tracking of jubilarians, alumni batches </li>
+                                       (high school, college and graduate school ) and University alumni abroad;</li>
+                                   <li>update alumni directory;</li>
+                                   <li>collect news and information pertaining to alumni; and</li>
+                                   <li>maintain databank of alumni records</li><br>
+                                2. Linkages and Network<br>
+                                To establish continuous communication link with CvSU alumni, the CvSU-OAA shall:
+                                <li>activate website of Alumni Affairs linked at CvSU website;</li>
+                                <li>create a facebook page for alumni affairs;</li>
+                                <li>identify alumni coordinators abroad;</li>
+                                <li>organize CvSU alumni associations of foreign graduates and alumni associations abroad;</li>
+                                <li>plan/layout alumni newsletter;</li>
+                                <li>disseminate/publish news and information in alumni newsletter and in facebook page of alumni affairs</li><br>
+                                3.Administrative<br>
+                                The following are the activities to systematize procedures at the CvSU-OAA to ensure quality service to CvSU and its alumni:
+                                <li>conduct consultative with alumni coordinators and alumni associations of the University;</li>
+                                <li>formulate operational procedures;</li>
+                                <li>plan/ layout pamphlets/brochures of alumni affairs;</li>
+                                <li>maintain and update pamphlets/brochures of alumni affairs; and</li>
+                                <li>benchmark good practices of alumni affairs of other Universities.</li><br>
+                               4.Coordinative Services<br>
+                               This service component of CvSU-OAA focuses on assisting the CvSU Alumni Associations
+                                in planning, implementing and monitoring the following activities:
+                                <li>alumni homecoming, send-off celebrations and oath taking;</li>
+                                <li>recognition of achievements of alumni;</li>
+                                <li>alumni fund drive;</li>
+                                <li>continuing education program/seminars/symposia/fora; and</li>
+                                <li>official transactions of alumni to the University</li><br>
+                                5.Internationalization<br>
+                                To strengthen relations with international alumni, the CvSU-OAA shall:<br>
+                                <li>identify coordinators for international alumni;</li>
+                                <li>identify potentials and interests of international alumni;</li>
+                                <li>organize CvSU international alumni;</li>
+                                <li>facilitate involvement of alumni in instruction, research and extension activities;</li>
+                                <li>update alumni with status, needs and priorities of the University; and</li>
+                                <li>recognize achievements of international alumni and their contribution to CvSU institutional development.</li>
+                              </td>
+                           </tr>
+                       </tbody>
+                   </table>
+               </div>
+           </div>
+        </div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-content">
+      <!-- Logo and Text -->
+      <div class="footer-logo">
+        <div class="logo-container">
+          <img src="Photos/cvSU logo.png" alt="Logo">
+          <h4>Cavite State University</h4>
+        </div>
+        <p class="footer-description">Municipality of Indang ,Cavite</p>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="footer-contact">
+        <h5>Contact Us:</h5>
+        <ul>
+          <li><i class="bi bi-tablet-landscape-fill"></i>(046) 862-0850</li>
+          <li><i class="bi bi-telephone-fill"></i>+639989372020/+6399599715511</li>
+          <li><i class="fa-solid fa-envelope"></i>ovpre.cvsu@gmail.com</li>
+        </ul>
+      </div>
+
+      <!-- Social Media Icons -->
+      <div class="footer-social">
+        <h5>Other Links:</h5>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/CaviteStateU"><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright Section -->
+    <hr>
+    <div class="footer-copyright">
+      <p>2024 Cavite State University | Indang Cavite,
+                   Philippines
+      </p>
+    </div>
+  </div>
+</footer>
+ 
+
+
+   
+<script>
+  document.getElementById("menu-toggle").addEventListener("click", function() {
+document.getElementById("side-menu").classList.add("show");
+});
+
+document.getElementById("menu-exit").addEventListener("click", function() {
+document.getElementById("side-menu").classList.remove("show");
+});
+
+window.addEventListener("resize", function() {
+if (window.innerWidth >= 993) {
+  document.getElementById("side-menu").classList.remove("show");
+}
+});
+</script>  
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+          crossorigin="anonymous"></script>
+
+</body>
+
+</html>

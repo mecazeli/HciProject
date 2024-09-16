@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cvsu.css">  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Cavite State University</title>
+</head>
+<body>
+  <!-- fixed-top -->
+  <nav class="navbar ">
+    <div class="container-fluid">
+      <div class="container-logo"> 
+        <img src="Photos/cvSU logo.png">
+        <h3> Cavite State University </h3>
+      </div>
+
+      <nav class="navbar ms-auto">
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input class="form-control form-control-sm me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
+          </form>
+          <a class="btn btn-light btn-sm ms-2 d-block d-lg-none " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+        </div>
+      </nav>   
+</nav>    
+<ul class="nav dropdowns">
+    <li class="nav-item dropdown">
+        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About <i class="bi bi-chevron-compact-down"></i>
+        </a>
+        <ul class="dropdown-menu" id="about">
+          <li><a class="dropdown-item" href="mission.html">Mandate, Mission, Vision</a></li>
+          <li><a class="dropdown-item" href="history.html">History</a></li>
+          <li><a class="dropdown-item" href="hymn.html">CvSU Hymn</a></li>
+          <li><a class="dropdown-item" href="regents.html">Board of Regents</a></li>
+          <li><a class="dropdown-item" href="contacts.html">Contacts and Directory</a></li>
+      </ul>
+  </li>
+    </li>
+    
+    <li class="nav-item dropdown">
+        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Administration <i class="bi bi-chevron-compact-down"></i>
+        </a>
+        <ul class="dropdown-menu" id="admin">
+            <li><a class="dropdown-item" href="#">Office of the President</a></li>
+            <li><a class="dropdown-item" href="#">Office of the Vice <br> President for Academic Affairs </a></li>
+            <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Research and Extension</a></li>
+            <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Administrative and Support Services
+            <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Business amd Resource Generation</a></li>
+            <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Planning and Development</a></li>
+
+            </ul>
+    </li>
+    <li class="nav-item dropdown" id="admission">
+        <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Admission <i class="bi bi-chevron-compact-down"></i>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="admission.html">First Semester SY 2024-2025 <br>Application for Admission</a></li>
+            <li><a class="dropdown-item" href="results.html">Admission Result <br> for SY 2024-2025</a></li>
+        </ul>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Campuses <i class="bi bi-chevron-compact-down"></i>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Bacoor Campus</a></li>
+            <li><a class="dropdown-item" href="#">Carmona Campus</a></li>
+            <li><a class="dropdown-item" href="#">Cavite City Campus</a></li>
+            <li><a class="dropdown-item" href="#">General Trias Campus</a></li>
+            <li><a class="dropdown-item" href="#">Imus Campus</a></li>
+            <li><a class="dropdown-item" href="#">Maragondon Campus</a></li>
+            <li><a class="dropdown-item" href="#">Naic Campus</a></li>
+            <li><a class="dropdown-item" href="#">Rosario Campus</a></li>
+            <li><a class="dropdown-item" href="#">Silang Campus</a></li>
+            <li><a class="dropdown-item" href="#">Tanza Campus</a></li>
+            <li><a class="dropdown-item" href="#">Trece Martires City Campus</a></li>
+        </ul>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services <i class="bi bi-chevron-compact-down"></i>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="http://library.cvsu.edu.ph/landing/">Integrated Library System</a></li>
+            <li><a class="dropdown-item" href="https://services.cvsu.edu.ph/cvsuResearch/">Research IS</a></li>
+            <li><a class="dropdown-item" href="calendar.html">University Calendar</a></li>
+            <li><a class="dropdown-item" href="events.html">University Events</a></li>
+            <li><a class="dropdown-item" href="https://cvsu.edu.ph/jobs/">Job Portal</a></li>
+            <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1mzrxnFhyFr7UApISaEI1AE7KlVhG6bMy">Downloadable Forms</a></li>
+            <li><a class="dropdown-item" href="https://cvsu.edu.ph/procurement/">Procurement</a></li>
+          </ul>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link " href="#" role="button" >
+           Programs 
+      </a>
+</ul>
+</div>
+
+<!-- SIDEBAR MENU -->
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title " id="offcanvasExampleLabel">MENU</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body text-center">
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        About <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="mission.html">Mandate, Mission, Vision</a></li>
+        <li><a class="dropdown-item" href="history.html">History</a></li>
+        <li><a class="dropdown-item" href="hymn.html">CvSU Hymn</a></li>
+        <li><a class="dropdown-item" href="regents.html">Board of Regents</a></li>
+        <li><a class="dropdown-item" href="contacts.html">Contacts and Directory</a></li>      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Admission <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="admission.html">First Semester SY 2024-2025 <br>Application for Admission</a></li>
+        <li><a class="dropdown-item" href="result.html">Admission Result <br> for SY 2024-2025</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Administration <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Office of the President</a></li>
+        <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Academic Affairs </a></li>
+        <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Research and Extension</a></li>
+        <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Administrative and Support Services
+        <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Business amd Resource Generation</a></li>
+        <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Planning and Development</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Campuses <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="bacoor.html">Bacoor Campus</a></li>
+        <li><a class="dropdown-item" href="carmona.html">Carmona Campus</a></li>
+        <li><a class="dropdown-item" href="cavite.html">Cavite City Campus</a></li>
+        <li><a class="dropdown-item" href="gentri.html">General Trias Campus</a></li>
+        <li><a class="dropdown-item" href="imus.html">Imus Campus</a></li>
+        <li><a class="dropdown-item" href="maragondon.html">Maragondon Campus</a></li>
+        <li><a class="dropdown-item" href="naic.html">Naic Campus</a></li>
+        <li><a class="dropdown-item" href="rosario.html">Rosario Campus</a></li>
+        <li><a class="dropdown-item" href="silang.html">Silang Campus</a></li>
+        <li><a class="dropdown-item" href="tanza.html">Tanza Campus</a></li>
+        <li><a class="dropdown-item" href="trece.html">Trece Martires City Campus</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Services <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="http://library.cvsu.edu.ph/landing/">Integrated Library System</a></li>
+        <li><a class="dropdown-item" href="https://services.cvsu.edu.ph/cvsuResearch/">Research IS</a></li>
+        <li><a class="dropdown-item" href="calendar.html">University Calendar</a></li>
+        <li><a class="dropdown-item" href="events.html">University Events</a></li>
+        <li><a class="dropdown-item" href="https://cvsu.edu.ph/jobs/">Job Portal</a></li>
+        <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1mzrxnFhyFr7UApISaEI1AE7KlVhG6bMy">Downloadable Forms</a></li>
+        <li><a class="dropdown-item" href="https://cvsu.edu.ph/procurement/">Procurement</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Programs <i class="bi bi-chevron-compact-down"></i>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- BANNER -->
+
+<div class="banner">
+    <img src="Photos/cvsu.jpg" alt="">
+    <h4 id="title1">Programs </h4>
+    <a href="landingPage.html"><h4 id="title2">Home >> Programs</h4></a> 
+  </div>
+  
+
+<!-- PROGRAMS  -->
+<div class="programs">
+    <h4>Graduate School and Open Learning College</h4>
+    <div class="table-container2">
+        <table class="grad-school">
+            <thead>
+                <tr>
+                    <th>PROGRAMS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>PhD in Agriculture</td>
+                </tr>
+                <tr>
+                    <td>PhD in Education</td>
+                </tr>
+                <tr>
+                    <td>PhD in Management</td>
+                </tr>
+                <tr>
+                    <td>Master in Business Administration</td>
+                </tr>
+                <tr>
+                    <td>Master of Agriculture</td>
+                </tr>
+                <tr>
+                    <td>Master of Arts in Education</td>
+                </tr>
+                <tr>
+                    <td>Master of Engineering</td>
+                </tr>
+                <tr>
+                    <td>Master of Management</td>
+                </tr>
+                <tr>
+                    <td>Master of Professional Studies</td>
+                </tr>
+                <tr>
+                    <td>MS Agriculture</td>
+                </tr>
+                <tr>
+                    <td>MS Biology</td>
+                </tr>
+                <tr>
+                    <td>MS Food Science</td>
+                </tr>
+                <tr>
+                    <td>Master in Information Technology</td>
+                </tr>
+        </table>
+    </div>
+
+    <div class="table-container2"> 
+        <h4>Undergraduate Programs</h4>
+        <h5>College of Agriculture, Food, Environment and Natural Resources</h5>
+        <table class="agri">
+            <thead>
+                <tr>
+                    <th>PROGRAMS</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Bachelor of Agricultural Entrepreneurship</td>
+                </tr>
+                <tr>
+                    <td>BS Agriculture</td>
+                </tr>
+                <tr>
+                    <td>BS Environmental Science</td>
+                </tr>
+                <tr>
+                    <td>BS Food Technology</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="table-container2">
+        <h5>College of Arts and Sciences</h5>
+        <table class="arts">
+            <thead>
+                <th>PROGRAMS</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BA English Language Studies (formerly BA English)</td>
+                </tr>
+                <tr>
+                    <td>BA Journalism (formerly BA Mass Communication)</td>
+                </tr>
+                <tr>
+                    <td>BA Political Science</td>
+                </tr>
+                <tr>
+                    <td>BS Applied Mathematics</td>
+                </tr>
+                <tr>
+                    <td>BS Biology</td>
+                </tr>
+                <tr>
+                    <td>BS Psychology</td>
+                </tr>
+                <tr>
+                    <td>BS Social Work</td>
+                </tr>
+            </table>
+    </div>
+
+    <div class="table-container2">
+        <h5>College of Criminal and Justice</h5>
+        <table class="criminal">
+            <thead>
+                <th>PROGRAMS</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BS Criminology</td>
+                </tr>
+                <tr>
+                    <td>BS Indutrial Security Management</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="table-container2">
+        <h5>College of Economics, Management, and Development Studies</h5>
+        <table class="economics">
+            <thead>
+                <th>PROGRAMS</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BS Accountancy</td>
+                </tr>
+                <tr>
+                    <td>BS Business Management</td>
+                </tr>
+                <tr>
+                    <td>BS Development Management</td>
+                </tr>
+                <tr>
+                    <td>BS Economics</td>
+                </tr>
+                <tr>
+                    <td>BS International Studies</td>
+                </tr>
+                <tr>
+                    <td>BS Office Administration</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="table-container2">
+        <h5>College of Education</h5>
+        <table class="education">
+            <thead>
+                <th>PROGRAMS</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bachelor of Early Childhood Education</td>
+                </tr>
+                <tr>
+                    <td>Bachelor of Elementary Education</td>
+                </tr>
+                <tr>
+                    <td>Bachelor of Secondary Education</td>
+                </tr>
+                <tr>
+                    <td>Bachelor of Special Needs Education</td>
+                </tr>
+                <tr>
+                    <td>Bachelor of Technology and Livelihood Education</td>
+                </tr>
+                <tr>
+                    <td>BS Hospitality Management (formerly BS Hotel and Restaurant Management)</td>
+                </tr>
+                <tr>
+                    <td>BS Tourism Management</td>
+                </tr>
+                <tr>
+                    <td>Teacher Certificate Program</td>
+                </tr>
+                <tr>
+                    <td>Science High School</td>
+                </tr>
+                <tr>
+                    <td>Elementary Education</td>
+                </tr>
+                <tr>
+                    <td>Pre-Elementary Education</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="table-container2">
+        <h5>College of Engineering and Information Technology</h5>
+        <table class="engineering">
+            <thead>
+                <th>PROGRAMS</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BS Agricultural and Biosystems Engineering (formerly BS Agricultural Engineering)</td>
+                </tr>
+                <tr>
+                    <td>BS Architecture</td>
+                </tr>
+                <tr>
+                    <td>BS Civil Engineering</td>
+                </tr>
+                <tr>
+                    <td>BS Computer Engineering</td>
+                </tr>
+                <tr>
+                    <td>BS Computer Science</td>
+                </tr>
+                <tr>
+                    <td>BS Electrical Engineering</td>
+                </tr>
+                <tr>
+                    <td>BS Electronics Engineering (formerly BS Electronics & Communications Engineering)</td>
+                </tr>
+                <tr>
+                    <td>BS Industrial Engineering</td>
+                </tr>
+                <tr>
+                    <td>BS Industrial Technology (formerly Bachelor of Industrial Technology)
+                    <br> <br>Major in: 
+                        <ul>
+                        <li>Automotive Technology</li>
+                        <li>Electrical technology</li>
+                        <li>Electronics Technology</li>
+                    </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>BS Information Technology</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="table-container2">
+        <h5>College of Nursing</h5>
+        <table class="nursing">
+            <thead>
+                <th>PROGRAMS</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BS Medical Technology</td>
+                </tr>
+                <tr>
+                    <td>BS Midwifery</td>
+                </tr>
+                <tr>
+                    <td>BS Nursing</td>
+                </tr>
+                <tr>
+                    <td>Diploma in Wifery</td>
+                </tr>            
+            </tbody>
+        </table>
+    </div>
+
+    <div class="table-container2">
+        <h5>College of Sports, Physical Education and Recreation</h5>
+        <table class="sports">
+            <thead>
+                <th>PROGRAMS</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bachelor of Physical Education</td>
+                </tr>
+                <tr>
+                    <td>Bachelor of Exercise and Sports Sciences (formerly Bachelor in Sports and Recreational Management)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="table-container2">
+        <h5>College of Veterinary Medicine and Biomedical Sciences</h5>
+        <table class="vet">
+            <thead>
+                <th>PROGRAMS</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Doctor of Veterinary Medicine</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+   <!-- FOOTER  -->
+   <footer>
+    <div class="footer-container">
+      <div class="footer-content">
+        <!-- Logo and Text -->
+        <div class="footer-logo">
+          <div class="logo-container">
+            <img src="Photos/cvSU logo.png" alt="Logo">
+            <h4>Cavite State University</h4>
+          </div>
+          <p class="footer-description">Municipality of Indang, Cavite</p>
+        </div>
+  
+        <!-- Contact Information -->
+        <div class="footer-contact">
+          <h5>Contact Us:</h5>
+          <ul>
+            <li><i class="bi bi-tablet-landscape-fill"></i>(046) 862-0850</li>
+            <li><i class="bi bi-telephone-fill"></i>+639989372020 / +6399599715511</li>
+            <li><i class="fa-solid fa-envelope"></i>ovpre.cvsu@gmail.com</li>
+          </ul>
+        </div>
+  
+        <!-- Social Media Icons -->
+        <div class="footer-social">
+          <h5>Other Links:</h5>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Copyright Section -->
+      <hr>
+      <div class="footer-copyright">
+        <p>2024 Cavite State University | Indang Cavite, Philippines</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+          crossorigin="anonymous"></script>
+  
+</body>
+</html>

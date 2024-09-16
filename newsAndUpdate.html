@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News and Update</title>
+  <link href="viewMore.css" rel="stylesheet" >
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- NAVBAR AND DROPDOWNS -->
+  <nav class="navbar ">
+    <div class="container-fluid">
+      <div class="container-logo"> 
+        <img src="Photos/cvSU logo.png">
+        <h3> Cavite State University </h3>
+      </div>
+
+      <nav class="navbar ms-auto">
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input class="form-control form-control-sm me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
+          </form>
+          <a class="btn btn-light btn-sm ms-2 d-block d-lg-none " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+        </div>
+      </nav>   
+</nav>    
+<ul class="nav dropdowns">
+  <li class="nav-item dropdown">
+      <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          About <i class="bi bi-chevron-compact-down"></i>
+      </a>
+      <ul class="dropdown-menu" id="about">
+        <li><a class="dropdown-item" href="mission.html">Mandate, Mission, Vision</a></li>
+        <li><a class="dropdown-item" href="history.html">History</a></li>
+        <li><a class="dropdown-item" href="hymn.html">CvSU Hymn</a></li>
+        <li><a class="dropdown-item" href="regents.html">Board of Regents</a></li>
+        <li><a class="dropdown-item" href="contacts.html">Contacts and Directory</a></li>
+    </ul>
+</li>
+  </li>
+  
+  <li class="nav-item dropdown">
+      <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Administration <i class="bi bi-chevron-compact-down"></i>
+      </a>
+      <ul class="dropdown-menu" id="admin">
+          <li><a class="dropdown-item" href="#">Office of the President</a></li>
+          <li><a class="dropdown-item" href="#">Office of the Vice <br> President for Academic Affairs </a></li>
+          <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Research and Extension</a></li>
+          <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Administrative and Support Services
+          <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Business amd Resource Generation</a></li>
+          <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Planning and Development</a></li>
+
+          </ul>
+  </li>
+  <li class="nav-item dropdown" id="admission">
+      <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Admission <i class="bi bi-chevron-compact-down"></i>
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="admission.html">First Semester SY 2024-2025 <br>Application for Admission</a></li>
+        <li><a class="dropdown-item" href="results.html">Admission Result <br> for SY 2024-2025</a></li>
+    </ul>
+  </li>
+  <li class="nav-item dropdown">
+      <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Campuses <i class="bi bi-chevron-compact-down"></i>
+      </a>
+      <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Bacoor Campus</a></li>
+          <li><a class="dropdown-item" href="#">Carmona Campus</a></li>
+          <li><a class="dropdown-item" href="#">Cavite City Campus</a></li>
+          <li><a class="dropdown-item" href="#">General Trias Campus</a></li>
+          <li><a class="dropdown-item" href="#">Imus Campus</a></li>
+          <li><a class="dropdown-item" href="#">Maragondon Campus</a></li>
+          <li><a class="dropdown-item" href="#">Naic Campus</a></li>
+          <li><a class="dropdown-item" href="#">Rosario Campus</a></li>
+          <li><a class="dropdown-item" href="#">Silang Campus</a></li>
+          <li><a class="dropdown-item" href="#">Tanza Campus</a></li>
+          <li><a class="dropdown-item" href="#">Trece Martires City Campus</a></li>
+      </ul>
+  </li>
+  <li class="nav-item dropdown">
+      <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Services <i class="bi bi-chevron-compact-down"></i>
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="http://library.cvsu.edu.ph/landing/">Integrated Library System</a></li>
+        <li><a class="dropdown-item" href="https://services.cvsu.edu.ph/cvsuResearch/">Research IS</a></li>
+        <li><a class="dropdown-item" href="calendar.html">University Calendar</a></li>
+        <li><a class="dropdown-item" href="events.html">University Events</a></li>
+        <li><a class="dropdown-item" href="https://cvsu.edu.ph/jobs/">Job Portal</a></li>
+        <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1mzrxnFhyFr7UApISaEI1AE7KlVhG6bMy">Downloadable Forms</a></li>
+        <li><a class="dropdown-item" href="https://cvsu.edu.ph/procurement/">Procurement</a></li>
+      </ul>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link " href="#" role="button" >
+         Programs 
+    </a>
+</ul>
+</div>
+
+<!-- SIDEBAR MENU -->
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title " id="offcanvasExampleLabel">MENU</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body text-center">
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        About <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Mission, vision</a></li>
+        <li><a class="dropdown-item" href="#">History</a></li>
+        <li><a class="dropdown-item" href="#">CvSU Hymn</a></li>
+        <li><a class="dropdown-item" href="#">Board of Regents</a></li>
+        <li><a class="dropdown-item" href="#">Contacts and Directory</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Admission <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Undergraduate</a></li>
+        <li><a class="dropdown-item" href="#">Graduate</a></li>
+        <li><a class="dropdown-item" href="#">International</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Administration <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Office of the President</a></li>
+        <li><a class="dropdown-item" href="#">Office of the Vice
+                                        <br> President for Academic Affairs</a></li>
+        <li><a class="dropdown-item" href="#">Departments</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Campuses <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Main Campus</a></li>
+        <li><a class="dropdown-item" href="#">Satellite Campuses</a></li>
+        <li><a class="dropdown-item" href="#">Virtual Tour</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Services <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Library</a></li>
+        <li><a class="dropdown-item" href="#">Counseling</a></li>
+        <li><a class="dropdown-item" href="#">IT Support</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Programs </i>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- BANNER -->
+
+<div class="banner">
+  <img src="Photos/cvsu.jpg" alt="">
+  <h4 id="title1">News And Update </h4>
+  <a href="landingPage.html"><h4 id="title2">Home >> News And Update</h4></a> 
+</div>
+
+<!-- IMAGES BOXES -->
+<div class="announcements">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100"style="background-color: #EBF1EA;">
+        <div class="dates">
+          <div class="date-day">26</div>
+          <div class="date-month">Aug</div>
+        </div>
+        <img src="Photos/rotc.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">2024 PH ROTC Games- Nat'l 
+                        Championships held at CvSU
+          </h5>
+          <p class="card-text"> In its second year, the national championships of the
+                   Philippine Reserve Officers’ Training Corps (ROTC) Games was held 
+                   at Cavite State University (CvSU) in Indang, Cavite, August 18-24.
+                   <br><br>Themed “Husay ng ROTC, Husay ng Kabataan,” cadet athletes, coaches, 
+                   officials, and staff from various higher education institutions
+                    (HEIs) across the country gathered for the national championships  which aims to promote camaraderie, nationalism, sports development, and the ROTC program.  
+          </p>    
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100" style="background-color: #EBF1EA;">
+        <div class="dates">
+          <div class="date-day">23</div>
+          <div class="date-month">Aug</div>
+        </div>
+        <img src="Photos/announcement3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> CvSU tops July 2024 
+                        Criminology board exam
+          </h5>
+          <p class="card-text">
+            Cavite State University (CvSU) is the top performing school in the July 
+            2024 Licensure Examination for Criminologists.
+            CvSU posted a 95.04% passing percentage (115/121) in the recently 
+            conducted licensure examination, and was ranked first among the top performing 
+            schools with 100-199 examinees.<br><br>
+            According to the Professional Regulation Commission, a total of 11,121 out 
+            of 22,539 (49.35%) passed the said board exam given by the Board of Criminology
+             in 22 testing centers all over the country.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100" style="background-color: #EBF1EA;">
+        <div class="dates">
+          <div class="date-day">20</div>
+          <div class="date-month">Aug</div>
+        </div>
+        <img src="Photos/announcement2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">CvSU produces topnotcher,
+                      new registered medical technologists
+          </h5>
+          <p class="card-text">Congratulations to Cavite State University’s
+                  (CvSU) new registered psychometricians!<br><br>
+                  A total of 182 examinees from CvSU’s Main, Bacoor City,
+                  General Trias, Imus, Silang, Tanza, and Trece Martires campuses 
+                  successfully passed the August 2024 Psychometricians Licensure 
+                  Examination with a national passing rate of 69.78%.
+                  <br><br>
+                  The said examination was given by the Board of Psychology in the National Capital Region,
+                   Baguio, Cebu, and Davao in August 2024.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100"style="background-color: #EBF1EA;">
+        <div class="dates">
+          <div class="date-day">14</div>
+          <div class="date-month">Aug</div>
+        </div>
+        <img src="Photos/announcement8.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">CvSU produces topnotcher, 
+                         new registered medical technologists
+          </h5>
+          <p class="card-text"> Cavite State University’s (CvSU) Jan Elvin P. Cezar 
+                 is top 10 in the August 2024 Medical Technologists Licensure Examination. 
+                 <br><br>
+                 CvSU posted 89.89% (169 out of 188 examinees) in the recently concluded 
+                 licensure examination with a national passing rate of 69.47%.
+          </p>    
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100" style="background-color: #EBF1EA;">
+        <div class="dates">
+          <div class="date-day">5</div>
+          <div class="date-month">Aug</div>
+        </div>
+        <img src="Photos/announcement7.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> CvSU faculty members complete leadership 
+                     dev’t program for HEIs in SEA
+          </h5>
+          <p class="card-text">
+            Two Cavite State University (CvSU) faculty members successfully completed
+            the 2024 Leadership Development Program for Higher Education Institutions 
+            (LDP-HEIs) in Southeast Asia.<br><br>
+
+            Dr. Bettina Joyce P. Ilagan, Dean of the Graduate School and Open Learning
+            College, and Dr. Rhodora S. Crizaldo, Associate Professor V, completed the
+            hybrid training program co-organized by the Southeast Asian Regional Center
+            for Graduate Study and Research in Agriculture (SEARCA) and The HEAD Foundation.
+            <br><br>
+
+            Dr. Ilagan and Dr. Crizaldo attended the face-to-face sessions in Bangkok, Thailand 
+            last May 7-9 for the pitching and refinement of their Re-Entry Action Plan. They
+            joined other delegates from 23 participating HEIs in Brunei Darussalam, Cambodia,
+            Indonesia, Malaysia, the Philippines, and Vietnam.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100" style="background-color: #EBF1EA;">
+        <div class="dates">
+          <div class="date-day">1</div>
+          <div class="date-month">Aug</div>
+        </div>
+        <img src="Photos/announcement9.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">CvSU hosts PH ROTC Games – Luzon and NCR leg
+          </h5>
+          <p class="card-text">
+            Cavite State University (CvSU) hosted the Luzon and National Capital
+             Region qualifying leg of the 2024 Philippine Reserve Officers Training 
+             Corps (ROTC) Games, July 28 – August 3.
+             <br><br>
+             Now in its second year, this week-long event themed “Husay ng ROTC,
+             Husay ng Kabataan” aims to promote camaraderie, nationalism, sports
+             development, and the ROTC program.
+             More than a thousand participants including cadets from the Philippine
+             Army, Philippine Navy, and Philippine Air Force from various higher
+             education institutions battled it out in the following events: arnis,
+             athletics, basketball, boxing, chess, e-sports, kickboxing, sepak takraw,
+             swimming, table tennis, taekwondo, target shooting, volleyball, and raiders
+            competition. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100"style="background-color: #EBF1EA;">
+        <div class="dates">
+          <div class="date-day">25</div>
+          <div class="date-month">July</div>
+        </div>
+        <img src="Photos/announcement10.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Congratulations to newly licensed Master Plumbers!
+          </h5>
+          <p class="card-text"> Cavite State University posted a 66.67% passing percentage
+             (8/12) in the July 2024 Master Plumbers Licensure Examination.<br><br>
+             According to the Professional Regulation Commission, a total of 2,936 out of
+             6,191 passed the said licensure examination given by the Board for Master Plumber
+             in NCR, Baguio, Butuan, Cagayan de Oro, Cebu, Davao, Iloilo, Koronadal, Legazpi,
+             Lucena, Rosales, Tacloban, and Puerto Princesa, Palawan in July 2024.
+          </p>    
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100" style="background-color: #EBF1EA;">
+        <div class="dates">
+          <div class="date-day">18</div>
+          <div class="date-month">July</div>
+        </div>
+        <img src="Photos/announcement11.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> CvSU is PQA Level III awardee
+          </h5>
+          <p class="card-text">
+            Cavite State University (CvSU) is a recipient of the 
+            Philippine Quality Award (PQA) Recognition for Mastery in Quality Management (Level III). 
+            This award is proof that the institution “demonstrated, through its practices and 
+            achievements, superior results clearly linked to robust management systems.” <br><br>
+            CvSU President Dr. Hernando D. Robles, together with Vice President (VP) for Academic 
+            Affairs Dr. Ma. Agnes P. Nuestro and VP for Planning and Development Dr. Almira G. Magcawas,
+            accepted the PQA trophy during the 26th PQA Conferment Ceremony held at the Malacañang Palace in Manila, July 17.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100" style="background-color: #EBF1EA;">
+        <div class="dates">
+          <div class="date-day">15</div>
+          <div class="date-month">July</div>
+        </div>
+        <img src="Photos/announcement12.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">CvSU joins SUC Fair 2024
+          </h5>
+          <p class="card-text">
+            Cavite State University (CvSU) joined the State Universities and 
+            Colleges (SUC) Fair 2024 with the theme “Weaving Culture and Innovations
+            for a Transformative, Resilient, and Globally-recognized Philippine Higher
+            Education,” at the KCC Mall in Zamboanga City, July 9-11.<br><br>
+
+            Present during the event were Dr. Almira G. Magcawas, CvSU Vice President
+            for Planning and Development; Ms. Bernadette S. Amparo, Head of CvSU Extension
+            Services, Community Engagement and External Relations Division (CEERD) and Technology
+            Promotion Division (TPD); Ms. Paula Gie C. Ducusin, CEERD staff; and Mr. Edwin G. Cueno,
+            Extension Services personnel.
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-content">
+      <!-- Logo and Text -->
+      <div class="footer-logo">
+        <div class="logo-container">
+          <img src="Photos/cvSU logo.png" alt="Logo">
+          <h4>Cavite State University</h4>
+        </div>
+        <p class="footer-description">Municipality of Indang ,Cavite</p>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="footer-contact">
+        <h5>Contact Us:</h5>
+        <ul>
+          <li><i class="bi bi-tablet-landscape-fill"></i>(046) 862-0850</li>
+          <li><i class="bi bi-telephone-fill"></i>+639989372020/+6399599715511</li>
+          <li><i class="fa-solid fa-envelope"></i>ovpre.cvsu@gmail.com</li>
+        </ul>
+      </div>
+
+      <!-- Social Media Icons -->
+      <div class="footer-social">
+        <h5>Other Links:</h5>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/CaviteStateU"><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright Section -->
+    <hr>
+    <div class="footer-copyright">
+      <p>2024 Cavite State University | Indang Cavite,
+                   Philippines
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+  document.getElementById("menu-toggle").addEventListener("click", function() {
+document.getElementById("side-menu").classList.add("show");
+});
+
+document.getElementById("menu-exit").addEventListener("click", function() {
+document.getElementById("side-menu").classList.remove("show");
+});
+
+window.addEventListener("resize", function() {
+if (window.innerWidth >= 993) {
+  document.getElementById("side-menu").classList.remove("show");
+}
+});
+
+</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"></script>
+</body>
+</html>

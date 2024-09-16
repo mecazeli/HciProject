@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cvsu.css">  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Cavite State University</title>
+</head>
+<body>
+  <!-- fixed-top -->
+  <nav class="navbar ">
+    <div class="container-fluid">
+      <div class="container-logo"> 
+        <img src="Photos/cvSU logo.png">
+        <h3> Cavite State University </h3>
+      </div>
+
+      <nav class="navbar ms-auto">
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input class="form-control form-control-sm me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
+          </form>
+          <a class="btn btn-light btn-sm ms-2 d-block d-lg-none " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+        </div>
+      </nav>   
+</nav>    
+<ul class="nav dropdowns">
+    <li class="nav-item dropdown">
+        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About <i class="bi bi-chevron-compact-down"></i>
+        </a>
+        <ul class="dropdown-menu" id="about">
+          <li><a class="dropdown-item" href="mission.html">Mandate, Mission, Vision</a></li>
+          <li><a class="dropdown-item" href="history.html">History</a></li>
+          <li><a class="dropdown-item" href="hymn.html">CvSU Hymn</a></li>
+          <li><a class="dropdown-item" href="regents.html">Board of Regents</a></li>
+          <li><a class="dropdown-item" href="contacts.html">Contacts and Directory</a></li>
+      </ul>
+  </li>
+    </li>
+    
+    <li class="nav-item dropdown">
+        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Administration <i class="bi bi-chevron-compact-down"></i>
+        </a>
+        <ul class="dropdown-menu" id="admin">
+            <li><a class="dropdown-item" href="#">Office of the President</a></li>
+            <li><a class="dropdown-item" href="#">Office of the Vice <br> President for Academic Affairs </a></li>
+            <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Research and Extension</a></li>
+            <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Administrative and Support Services
+            <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Business amd Resource Generation</a></li>
+            <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Planning and Development</a></li>
+
+            </ul>
+    </li>
+    <li class="nav-item dropdown" id="admission">
+        <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Admission <i class="bi bi-chevron-compact-down"></i>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="admission.html">First Semester SY 2024-2025 <br>Application for Admission</a></li>
+            <li><a class="dropdown-item" href="results.html">Admission Result <br> for SY 2024-2025</a></li>
+        </ul>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Campuses <i class="bi bi-chevron-compact-down"></i>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Bacoor Campus</a></li>
+            <li><a class="dropdown-item" href="#">Carmona Campus</a></li>
+            <li><a class="dropdown-item" href="#">Cavite City Campus</a></li>
+            <li><a class="dropdown-item" href="#">General Trias Campus</a></li>
+            <li><a class="dropdown-item" href="#">Imus Campus</a></li>
+            <li><a class="dropdown-item" href="#">Maragondon Campus</a></li>
+            <li><a class="dropdown-item" href="#">Naic Campus</a></li>
+            <li><a class="dropdown-item" href="#">Rosario Campus</a></li>
+            <li><a class="dropdown-item" href="#">Silang Campus</a></li>
+            <li><a class="dropdown-item" href="#">Tanza Campus</a></li>
+            <li><a class="dropdown-item" href="#">Trece Martires City Campus</a></li>
+        </ul>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services <i class="bi bi-chevron-compact-down"></i>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="http://library.cvsu.edu.ph/landing/" target="_blank">Integrated Library System</a></li>
+            <li><a class="dropdown-item" href="https://services.cvsu.edu.ph/cvsuResearch/" target="_blank">Research IS</a></li>
+            <li><a class="dropdown-item" href="calendar.html" target="_blank">University Calendar</a></li>
+            <li><a class="dropdown-item" href="events.html" target="_blank">University Events</a></li>
+            <li><a class="dropdown-item" href="https://cvsu.edu.ph/jobs/" target="_blank">Job Portal</a></li>
+            <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1mzrxnFhyFr7UApISaEI1AE7KlVhG6bMy" target="_blank">Downloadable Forms</a></li>
+            <li><a class="dropdown-item" href="https://cvsu.edu.ph/procurement/" target="_blank">Procurement</a></li>
+        </ul>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link " href="#" role="button" >
+           Programs 
+      </a>
+</ul>
+</div>
+
+<!-- SIDEBAR MENU -->
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title " id="offcanvasExampleLabel">MENU</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body text-center">
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        About <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Mission, vision</a></li>
+        <li><a class="dropdown-item" href="#">Hymn</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Admission <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Undergraduate</a></li>
+        <li><a class="dropdown-item" href="#">Graduate</a></li>
+        <li><a class="dropdown-item" href="#">International</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Administration <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Office of the President</a></li>
+        <li><a class="dropdown-item" href="#">Board of Trustees</a></li>
+        <li><a class="dropdown-item" href="#">Departments</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Campuses <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Main Campus</a></li>
+        <li><a class="dropdown-item" href="#">Satellite Campuses</a></li>
+        <li><a class="dropdown-item" href="#">Virtual Tour</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Services <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Library</a></li>
+        <li><a class="dropdown-item" href="#">Counseling</a></li>
+        <li><a class="dropdown-item" href="#">IT Support</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Programs <i class="bi bi-chevron-compact-down"></i>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- BANNER -->
+<div class="banner">
+    <img src="Photos/cvsu.jpg" alt="">
+    <h4 id="title1">Contacts and Directory </h4>
+    <a href="landingPage.html"><h4 id="title2">Home >> Contacts and Directory </h4></a> 
+  </div>
+  
+
+  <div class="table-container">
+    
+  <table class="contacts">
+    <span>
+        <h4>Dr. Hernando D. Robles</h4>
+        <h5>President, Cavite State University <br>
+            <br>0960 444 2242 | (046) 840-6937 | office.president@cvsu.edu.ph</h5>
+        <h5 id="off">Designation of University Officials ( February 13, 2023 to October 6, 2024)</h5>
+    </span>
+    <thead>
+        <tr>
+            <th>NAME</th>
+            <th>POSITION</th>
+            <th>CONTACT INFORMATION</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>DR. MA. AGNES P. NUESTRO</td>
+            <td>VICE PRESIDENT FOR ACADEMIC AFFAIRS</td>
+            <td class="nowrap">(046) 862-0806<br>ovpaa@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>PROF. JOHN XAVIER B. NEPOMUCENO</td>
+            <td>VICE PRESIDENT FOR ADMINISTRATIVE AND SUPPORT SERVICES</td>
+            <td class="nowrap">(046) 862-0853<br>ovpass@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. MELBOURNE R. TALACTAC</td>
+            <td>VICE PRESIDENT FOR RESEARCH AND EXTENSION</td>
+            <td class="nowrap">(046) 862-0850<br>ovpre@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. ALMIRA G. MAGCAWAS</td>
+            <td>VICE PRESIDENT FOR PLANNING AND DEVELOPMENT</td>
+            <td class="nowrap">(046) 862-0806<br>pdo@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>VICE PRESIDENT FOR BUSINESS AND RESOURCE GENERATION</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DR. LILIBETH P. NOVICIO</td>
+            <td>DEAN, College of Agriculture, Food, Environment and Natural Resources</td>
+            <td class="nowrap">cafenr@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. ARMI GRACE B. DESINGAÑO</td>
+            <td>DEAN, College of Arts and Sciences</td>
+            <td class="nowrap">cas@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. AMMIE P. FERRER</td>
+            <td>DEAN, College of Education</td>
+            <td class="nowrap">ced@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. MARIA SOLEDAD M. LISING</td>
+            <td>DEAN, College of Economics, Management and Development Studies</td>
+            <td class="nowrap">cemds@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. WILLIE C. BUCLATIN</td>
+            <td>DEAN, College of Engineering and Information Technology</td>
+            <td class="nowrap">(046) 415-0021<br>ceit@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. EVELYN M. DEL MUNDO</td>
+            <td>DEAN, College of Nursing</td>
+            <td class="nowrap">con@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. ELEANOR J. GALVEZ</td>
+            <td>DEAN, College of Medicine</td>
+            <td class="nowrap">medicine@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>PROF. RONNEL P. CUACHIN</td>
+            <td>DEAN, College of Sports, Physical Education and Recreation</td>
+            <td class="nowrap">cspear@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. REZIN C. BAHIA</td>
+            <td>DEAN, College of Veterinary Medicine and Biomedical Sciences</td>
+            <td class="nowrap">(046) 862-0939<br>(046) 862-0940<br>cvmbs@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. BETTINA JOYCE P. ILAGAN</td>
+            <td>DEAN, Graduate School and Open Learning College</td>
+            <td class="nowrap">(046) 890-5926<br>gs.olc@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. MARISSA L. IKAN</td>
+            <td>DEAN, College of Criminal Justice</td>
+            <td class="nowrap">0915-526-0819<br>09156684432<br>ccj@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>PROF. MENVYLUZ S. MACALALAD</td>
+            <td>Campus Administrator, CvSU Bacoor City Campus</td>
+            <td class="nowrap">(046)476-5029<br>cvsubacoor@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>PROF. MA. CRISTINA J. BAESA</td>
+            <td>Campus Administrator, CvSU Cavite City Campus</td>
+            <td class="nowrap">(046) 431-3580<br>(046) 431-3570<br>cvsucavitecity@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. JENNY BEB F. ESPINELI</td>
+            <td>Campus Administrator, CvSU Imus Campus</td>
+            <td class="nowrap">(046) 471-6607<br>cvsuimus@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. JOCELYN L. REYES</td>
+            <td>Campus Administrator, CvSU Silang Campus</td>
+            <td class="nowrap">(046) 513-5706<br>cvsusilang@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. CRISTINA M. SIGNO</td>
+            <td>Campus Administrator, CvSU Carmona Campus</td>
+            <td class="nowrap">(046) 430-3509<br>cvsucarmona@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. LAURO B. PASCUA</td>
+            <td>Campus Administrator, CvSU Rosario Campus</td>
+            <td class="nowrap">(046) 437-6659<br>(046) 437-1109<br>cvsurosario@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. LEAH C. NAVARRO</td>
+            <td>Campus Administrator, CvSU Naic Campus</td>
+            <td class="nowrap">(046) 856-0942<br>cvsunaic@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>PROF. MARILOU P. LUSECO</td>
+            <td>Campus Administrator, CvSU General Trias Campus</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DR. TITA C. LOPEZ</td>
+            <td>Campus Administrator, CvSU Tanza Campus</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DR. JESSIE ANNE T. DEMETILLO</td>
+            <td>Campus Administrator, CvSU Trece Martires City Campus</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DR. GEMMA S. LEGASPI</td>
+            <td>Center Administrator, CvSU Learning Center - Dasmariñas City</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DR. JONATHAN R. DIGMA</td>
+            <td>Principal, CvSU Maragondon Campus</td>
+            <td class="nowrap">(046) 482-9254<br>maragondon@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>PROF. ANA LIZA R. MOJICA</td>
+            <td>Director, Sports</td>
+            <td class="nowrap">sportsdirector@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>MS. EDWINA O. RODEROS</td>
+            <td>University Registrar</td>
+            <td class="nowrap">(046) 862-0853<br>registrarmain@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>MS. SHARON M. ISIP</td>
+            <td>Dean, Office of the Student Affairs and Services</td>
+            <td class="nowrap">(046) 481-8722<br>cvsuosasmain@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>MS. PRINCESS N. RODERNO</td>
+            <td>Head, University Library</td>
+            <td class="nowrap">cvsulibrary@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. PATRICK GLENN C. ILANO</td>
+            <td>Hotel Manager</td>
+            <td class="nowrap">+639659437460<br>(046) 443-2837</td>
+        </tr>
+        <tr>
+            <td>DR. MIRIAM D. BALTAZAR</td>
+            <td>Director, Research Center</td>
+            <td class="nowrap">(046) 862-1654<br>researchcenter@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. RACQUEL G. AGUSTIN</td>
+            <td>Director, Extension Services</td>
+            <td class="nowrap">(046) 482-2010<br>extension@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. AGNES C. FRANCISCO</td>
+            <td>Director, Knowledge Management Center</td>
+            <td class="nowrap">(046) 862-0859<br>kmc.cvsu@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>MR. VERNON C. COSTA</td>
+            <td>Director, Production and Resource Generation</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DR. MARIA CORAZON A. BUENA</td>
+            <td>Director, Business Affairs and Marketing Office</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>ENG. ROSALIE A. PELLE</td>
+            <td>Director, Administration</td>
+            <td class="nowrap">(046) 862-0853<br>oda@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>MS. ABIGAIL S. CRUZ</td>
+            <td>Director, Human Resource and Development Office</td>
+            <td class="nowrap">(046) 862-0850<br>cvsuhrd@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>MS. ASUNCION R. REYES</td>
+            <td>Director, Finance Management Office</td>
+            <td class="nowrap">(046) 419-4067</td>
+        </tr>
+        <tr>
+            <td>DR. AISHA H. DIQUIT</td>
+            <td>OIC, Health Services</td>
+            <td class="nowrap">(046) 423-1335</td>
+        </tr>
+        <tr>
+            <td>MR. ROMULO L. GOMEZ</td>
+            <td>Director, Civil Security Services</td>
+            <td class="nowrap">romygomez.cvsu@gmail.com</td>
+        </tr>
+        <tr>
+            <td>PROF. DANIELITO R. ESCAÑO</td>
+            <td>Director, Physical Plant Services</td>
+            <td class="nowrap">pps@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>ENGR. ORLANDO B. DELOS REYES</td>
+            <td>Director, Planning Office<br>(Planning and Development Office)</td>
+            <td class="nowrap">obdreyes@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. PIA RHODA P. LUCERO</td>
+            <td>Director, Institutional Development Office<br>(Quality Assurance Office)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>MS. CATHERINE J. QUIÑONES</td>
+            <td>Director, Presidential Management Coordinating Office</td>
+            <td class="nowrap">(046) 415-0010<br>office.president@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. SUSAN G. TAN</td>
+            <td>Director, Gender and Development</td>
+            <td class="nowrap">(046) 443-2546<br>gadcvsu@gmail.com</td>
+        </tr>
+        <tr>
+            <td>PROF. MA. VERONICA P. PEÑAFLORIDA</td>
+            <td>Director, International and Local Collaboration and Linkages Office</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>PROF. ADORA JOY T. PLETE</td>
+            <td>Director, Public Affairs and Communications Office</td>
+            <td class="nowrap">paco@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>PROF. RODERICK M. RUPIDO</td>
+            <td>Director, Alumni Affairs</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DR. HOSEA DL. MATEL</td>
+            <td>Director, Macapuno Research and Development Center</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>ENGR. GERRY M. CASTILLO</td>
+            <td>Director, National Coffee Research, Development and Extension Center</td>
+            <td class="nowrap">(046) 415-0329<br>ncrdec@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>PROF. JUNSER P. MAGPANTAY</td>
+            <td>Director, Sugar Palm Research, Information and Trade Center/Pollution Control Officer</td>
+            <td class="nowrap">sprintcenter@cvsu.edu.ph<br>pco@cvsu.edu.ph<br>(046) 423-1071</td>
+        </tr>
+        <tr>
+            <td>PROF. MICHELE T. BONO</td>
+            <td>Director, Bee Research, Innovation, Trade, and Extension Center (BRITE Center)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DR. BERNARD S. FERANIL</td>
+            <td>Director, Center for Language Learning and Research (CELLAR)</td>
+            <td class="nowrap">cellar@cvsu.edu.ph</td>
+        </tr>
+        <tr>
+            <td>DR. JOANA MARIE M. TAYAG</td>
+            <td>Manager, Agri-Eco Tourism Park</td>
+            <td class="nowrap">agri-ecopark@cvsu.edu.ph<br>(046) 482 4385</td>
+        </tr>
+        <tr>
+            <td>PROF. ZANNIE I. GAMUYAO</td>
+            <td>Faculty Regent</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>MS. JULIEANNE GAYLE A. LUNA</td>
+            <td>Student Regent</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+   <!-- FOOTER  -->
+   <footer>
+    <div class="footer-container">
+      <div class="footer-content">
+        <!-- Logo and Text -->
+        <div class="footer-logo">
+          <div class="logo-container">
+            <img src="Photos/cvSU logo.png" alt="Logo">
+            <h4>Cavite State University</h4>
+          </div>
+          <p class="footer-description">Municipality of Indang, Cavite</p>
+        </div>
+  
+        <!-- Contact Information -->
+        <div class="footer-contact">
+          <h5>Contact Us:</h5>
+          <ul>
+            <li><i class="bi bi-tablet-landscape-fill"></i>(046) 862-0850</li>
+            <li><i class="bi bi-telephone-fill"></i>+639989372020 / +6399599715511</li>
+            <li><i class="fa-solid fa-envelope"></i>ovpre.cvsu@gmail.com</li>
+          </ul>
+        </div>
+  
+        <!-- Social Media Icons -->
+        <div class="footer-social">
+          <h5>Other Links:</h5>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Copyright Section -->
+      <hr>
+      <div class="footer-copyright">
+        <p>2024 Cavite State University | Indang Cavite, Philippines</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+          crossorigin="anonymous"></script>
+  
+</body>
+</html>

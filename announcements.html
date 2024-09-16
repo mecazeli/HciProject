@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News and Update</title>
+  <link href="viewMore.css" rel="stylesheet" >
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- NAVBAR AND DROPDOWNS -->
+    <nav class="navbar ">
+      <div class="container-fluid">
+        <div class="container-logo"> 
+          <img src="Photos/cvSU logo.png">
+          <h3> Cavite State University </h3>
+        </div>
+  
+        <nav class="navbar ms-auto">
+          <div class="container-fluid">
+            <form class="d-flex" role="search">
+              <input class="form-control form-control-sm me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
+            </form>
+            <a class="btn btn-light btn-sm ms-2 d-block d-lg-none " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+          </div>
+        </nav>   
+  </nav>    
+  <ul class="nav dropdowns">
+      <li class="nav-item dropdown">
+          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About <i class="bi bi-chevron-compact-down"></i>
+          </a>
+          <ul class="dropdown-menu" id="about">
+            <li><a class="dropdown-item" href="mission.html">Mandate, Mission, Vision</a></li>
+            <li><a class="dropdown-item" href="history.html">History</a></li>
+            <li><a class="dropdown-item" href="hymn.html">CvSU Hymn</a></li>
+            <li><a class="dropdown-item" href="regents.html">Board of Regents</a></li>
+            <li><a class="dropdown-item" href="contacts.html">Contacts and Directory</a></li>
+        </ul>
+    </li>
+      </li>
+      
+      <li class="nav-item dropdown">
+          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Administration <i class="bi bi-chevron-compact-down"></i>
+          </a>
+          <ul class="dropdown-menu" id="admin">
+              <li><a class="dropdown-item" href="#">Office of the President</a></li>
+              <li><a class="dropdown-item" href="#">Office of the Vice <br> President for Academic Affairs </a></li>
+              <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Research and Extension</a></li>
+              <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Administrative and Support Services
+              <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Business amd Resource Generation</a></li>
+              <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Planning and Development</a></li>
+  
+              </ul>
+      </li>
+      <li class="nav-item dropdown" id="admission">
+          <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Admission <i class="bi bi-chevron-compact-down"></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="admission.html">First Semester SY 2024-2025 <br>Application for Admission</a></li>
+            <li><a class="dropdown-item" href="results.html">Admission Result <br> for SY 2024-2025</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+          <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Campuses <i class="bi bi-chevron-compact-down"></i>
+          </a>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Bacoor Campus</a></li>
+              <li><a class="dropdown-item" href="#">Carmona Campus</a></li>
+              <li><a class="dropdown-item" href="#">Cavite City Campus</a></li>
+              <li><a class="dropdown-item" href="#">General Trias Campus</a></li>
+              <li><a class="dropdown-item" href="#">Imus Campus</a></li>
+              <li><a class="dropdown-item" href="#">Maragondon Campus</a></li>
+              <li><a class="dropdown-item" href="#">Naic Campus</a></li>
+              <li><a class="dropdown-item" href="#">Rosario Campus</a></li>
+              <li><a class="dropdown-item" href="#">Silang Campus</a></li>
+              <li><a class="dropdown-item" href="#">Tanza Campus</a></li>
+              <li><a class="dropdown-item" href="#">Trece Martires City Campus</a></li>
+          </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services <i class="bi bi-chevron-compact-down"></i>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="http://library.cvsu.edu.ph/landing/" target="_blank">Integrated Library System</a></li>
+            <li><a class="dropdown-item" href="https://services.cvsu.edu.ph/cvsuResearch/" target="_blank">Research IS</a></li>
+            <li><a class="dropdown-item" href="calendar.html" target="_blank">University Calendar</a></li>
+            <li><a class="dropdown-item" href="events.html" target="_blank">University Events</a></li>
+            <li><a class="dropdown-item" href="https://cvsu.edu.ph/jobs/" target="_blank">Job Portal</a></li>
+            <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1mzrxnFhyFr7UApISaEI1AE7KlVhG6bMy" target="_blank">Downloadable Forms</a></li>
+            <li><a class="dropdown-item" href="https://cvsu.edu.ph/procurement/" target="_blank">Procurement</a></li>
+        </ul>
+    </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link " href="#" role="button" >
+             Programs 
+        </a>
+  </ul>
+  </div>
+
+<!-- SIDEBAR MENU -->
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title " id="offcanvasExampleLabel">MENU</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body text-center">
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        About <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Mission, vision</a></li>
+        <li><a class="dropdown-item" href="#">History</a></li>
+        <li><a class="dropdown-item" href="#">CvSU Hymn</a></li>
+        <li><a class="dropdown-item" href="#">Board of Regents</a></li>
+        <li><a class="dropdown-item" href="#">Contacts and Directory</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Admission <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Undergraduate</a></li>
+        <li><a class="dropdown-item" href="#">Graduate</a></li>
+        <li><a class="dropdown-item" href="#">International</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Administration <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Office of the President</a></li>
+        <li><a class="dropdown-item" href="#">Office of the Vice
+                                        <br> President for Academic Affairs</a></li>
+        <li><a class="dropdown-item" href="#">Departments</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Campuses <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Main Campus</a></li>
+        <li><a class="dropdown-item" href="#">Satellite Campuses</a></li>
+        <li><a class="dropdown-item" href="#">Virtual Tour</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Services <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Library</a></li>
+        <li><a class="dropdown-item" href="#">Counseling</a></li>
+        <li><a class="dropdown-item" href="#">IT Support</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Programs </i>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- BANNER -->
+
+<div class="banner">
+  <img src="Photos/cvsu.jpg" alt="">
+  <h4 id="title1">Announcements </h4>
+  <a href="landingPage.html"><h4 id="title2">Home >> Announcements</h4></a> 
+</div>
+
+
+<!-- IMAGES BOXES -->
+<div class="announcements">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100"style="background-color: #EBF1EA;">
+        <div class="dates">
+          <div class="date-day">8</div>
+          <div class="date-month">May</div>
+        </div>
+        <img src="Photos/announcement4.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">𝗥𝗘-𝗔𝗣𝗣𝗟𝗜𝗖𝗔𝗧𝗜𝗢𝗡 in the CvSU – Main Campus for the 1st Semester of School Year 2024 – 2025
+          </h5>
+          <p class="card-text">𝗥𝗘-𝗔𝗣𝗣𝗟𝗜𝗖𝗔𝗧𝗜𝗢𝗡 in the CvSU – Main Campus for the 1st Semester of School Year 2024 – 2025 is now 𝐨𝐩𝐞𝐧.
+            <br>Please be guided by the following admission procedures and guidelines.
+            <br>List of Applicants (Control Numbers) who can re-apply:
+            <a href="https://drive.google.com/…/1b4FCQpTVJUUN1eBndPm…/view…">https://drive.google.com/…/1b4FCQpTVJUUN1eBndPm…/view…</a>
+            <br>Google form for Re-application:
+            <a href="https://forms.gle/h23heWAXmgk9nUtf7">https://forms.gle/h23heWAXmgk9nUtf7</a>
+            <br>Kindly take note of the following important dates:
+            <br>𝐌𝐚𝐲 𝟮𝟳, 𝟮𝟬𝟮𝟰 – Releasing of Results for Re-Application
+            <br>𝐉𝐮𝐧𝐞 𝟮𝟬, 𝟮𝟬𝟮𝟰 – Last Day for Confirmation of Slots
+            <br>Note: Late application and transferee-shiftee are not applicable in this procedure.
+          </p>    
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100" style="background-color: #EBF1EA;">
+        <div class="dates">
+          <div class="date-day">7</div>
+          <div class="date-month">May</div>
+        </div>
+        <img src="Photos/announcement5.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> Admission Result for SY 2024-2025
+          </h5>
+          <p class="card-text">
+            Cavite State University – MAIN CAMPUS for SY 2024 – 2025
+            CONGRATULATIONS, PASSERS!<br>
+            Please see attached photos and links for the admission procedures and guidelines.
+            You can view the complete list of Passers here (PDF file):<br>
+            <a href="https://drive.google.com/…/1oCuUjw7Sj3uvTmrqTw9…/view…">https://drive.google.com/…/1oCuUjw7Sj3uvTmrqTw9…/view…"</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100" style="background-color: #EBF1EA;">
+        <div class="dates">
+          <div class="date-day">21</div>
+          <div class="date-month">Feb</div>
+        </div>
+        <img src="Photos/announcement13.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Settlement of Tuition and Other School Fees
+          </h5>
+          <p class="card-text">Settlement of Tuition and Other School Fees for Paying Students
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100"style="background-color: #EBF1EA;">
+        <div class="dates">
+          <div class="date-day">6</div>
+          <div class="date-month">Nov</div>
+        </div>
+        <img src="Photos/announcement14.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">First Semester SY 2024-2025 Application for Admission
+          </h5>
+          <p class="card-text"> 𝐀𝐏𝐏𝐋𝐈𝐂𝐀𝐓𝐈𝐎𝐍 𝐅𝐎𝐑 𝐀𝐃𝐌𝐈𝐒𝐒𝐈𝐎𝐍 𝐟𝐨𝐫 𝐅𝐈𝐑𝐒𝐓 𝐒𝐄𝐌𝐄𝐒𝐓𝐄𝐑 𝐒.𝐘. 𝟐𝟎𝟐𝟒-𝟐𝟎𝟐𝟓 𝐛𝐞𝐠𝐢𝐧𝐬 𝐨𝐧 𝐍𝐎𝐕𝐄𝐌𝐁𝐄𝐑 𝟔, 𝟐𝟎𝟐𝟑!<br>
+            𝗢𝗡𝗟𝗜𝗡𝗘 𝗔𝗣𝗣𝗟𝗜𝗖𝗔𝗧𝗜𝗢𝗡 𝗟𝗜𝗡𝗞𝗦:Start of Application: November 6, 2023<br>
+            𝙈𝙖𝙞𝙣 𝘾𝙖𝙢𝙥𝙪𝙨 𝙖𝙣𝙙 𝙤𝙩𝙝𝙚𝙧 𝘾𝙖𝙢𝙥𝙪𝙨𝙚𝙨:<a href="https://apps.cvsu.edu.ph/admission">https://apps.cvsu.edu.ph/admission</a><br>
+            𝘾𝘾𝘼𝙏 𝘾𝙖𝙢𝙥𝙪𝙨:Start of Application: January 15, 2024
+            Online Application link will be posted on the official CCAT OSAS FB Page. Kindly visit :
+            <a href="https://www.facebook.com/CvSUCCATOSAS?mibextid=LQQJ4d">https://www.facebook.com/CvSUCCATOSAS?mibextid=LQQJ4d</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100" style="background-color: #EBF1EA;">
+        <div class="dates">
+          <div class="date-day">6</div>
+          <div class="date-month">Sep</div>
+        </div>
+        <img src="Photos/announcement15.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> Orientation Program 2023
+          </h5>
+          <p class="card-text">
+            We are inviting our incoming first-year students, transferees, second coursers, and parents to the Orientation Program!<br>
+            Please take note of the following important dates: September 11, 12, & 15, 2023<br>
+            Venue: International Convention Center (ICON)<br><br>
+            𝙉𝙊𝙏𝙀: 𝗦𝗲𝗽𝘁𝗲𝗺𝗯𝗲𝗿 𝟭𝟯 𝘀𝗰𝗵𝗲𝗱𝘂𝗹𝗲 𝗵𝗮𝘀 𝗯𝗲𝗲𝗻 𝗺𝗼𝘃𝗲𝗱 𝘁𝗼 𝗦𝗲𝗽𝘁𝗲𝗺𝗯𝗲𝗿 𝟭𝟭, 𝟮𝟬𝟮𝟯 (𝘀𝗮𝗺𝗲 𝘃𝗲𝗻𝘂𝗲 𝗮𝗻𝗱 𝘁𝗶𝗺𝗲)<br>
+            September 14, 2023<br>
+            Venue: S.M. Rolle Hall<br>
+            Time slots:<br>
+            • 8:00 am -10:00 am<br>
+            • 11:00 am – 1:00 pm<br>
+            • 3:00 pm – 5:00 pm<br>
+            Be there! As we welcome you to your New Home! 𝙏𝙝𝙚 𝙃𝙤𝙢𝙚 𝙤𝙛 𝙩𝙝𝙚 𝘽𝙚𝙨𝙩 𝙖𝙣𝙙 𝙩𝙝𝙚 𝘽𝙧𝙞𝙜𝙝𝙩𝙚𝙨𝙩! CvSU leads forever!   
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100" style="background-color: #EBF1EA;">
+        <div class="dates">
+          <div class="date-day">26</div>
+          <div class="date-month">July</div>
+        </div>
+        <img src="Photos/announcement16.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Incoming First Year Students – College of Medicine
+          </h5>
+          <p class="card-text">
+            We are pleased to officially announce the List of Incoming First-Year Students for the Academic Year 2023-2024 at Cavite State University – College of Medicine.
+            Accepted applicants will receive communications via the email (medicine_admission@cvsu.edu.ph) or SMS containing important information about the processes for medical examination, clearance, and enrollment. Please ensure that you carefully monitor your emails and cellphone for these updates.
+            To those who were not included in the final list, we deeply appreciate your interest in joining our program. We encourage you to persist in pursuing your dream of becoming a Doktor para sa Bayan (Doctor for the Nation).
+            Once again, congratulations to all the successful candidates. We eagerly look forward to guiding you on your medical journey at Cavite State University!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100"style="background-color: #EBF1EA;">
+        <div class="dates">
+          <div class="date-day">2</div>
+          <div class="date-month">May</div>
+        </div>
+        <img src="Photos/announcement17.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Admission Result for First Semester, SY 2023-2024
+          </h5>
+          <p class="card-text">Out of 34,667 incoming first year applicants who 
+            registered online, only 6,507 applicants can be admitted in the Main
+             Campus due to its limited carrying capacity.
+             <br><br>
+             Applicants can confirm the slot beginning May 2 to June 13, 2023. 
+             Failure to confirm slot within the given period will mean forfeiture
+              of application for the course.
+            <br><br>
+            PROCEDURE FOR CONFIRMATION OF SLOT:
+            <br><br>
+            STEP 1: Using the registered email account, log-in to the Online Student Admission System – https://apps.cvsu.edu.ph/admission/
+            <br>
+            STEP 2: In the Menu bar, go to the ADMISSION RESULT section. Update your personal information.
+            <br>
+            STEP 3: Read the content message stating the course that you are qualified to enroll in.
+            <br>
+            STEP 4: Answer the survey form for internet connectivity, ICT readiness and family monthly income.
+            <br>
+            STEP 5: Click the “CONFIRM” button to confirm slot. Download and print the Notice of Admission (NOA) form.
+
+          </p>    
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100" style="background-color: #EBF1EA;">
+        <div class="dates">
+          <div class="date-day">19</div>
+          <div class="date-month">Apr</div>
+        </div>
+        <img src="Photos/announcement18.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Job Fair 2023
+          </h5>
+          <p class="card-text">
+            Calling all the graduating students and graduates!
+            Here is your opportunity to Find Your Dream Career!
+            The Office of Student Affairs and Services is inviting you to a Job Fair activity on May 18, 2023, from 8:00am to 5:00pm, at CvSU International Convention Center (ICON).
+           <br><br> Participants must be registered through this link:
+            <a href="https://forms.gle/eRtkn71MdAUiZids6">https://forms.gle/eRtkn71MdAUiZids6</a> 
+           <br> Come in business/corporate attire and bring copies of curriculum vitae/resumes.
+            <br>Get the Job, be hired!
+            For more details, you may reach your College Placement Coordinator.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100" style="background-color: #EBF1EA;">
+        <div class="dates">
+          <div class="date-day">29</div>
+          <div class="date-month">Mar</div>
+        </div>
+        <img src="Photos/announcement19.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">ADVISORY from the OFFICE OF THE UNIVERSITY REGISTRAR and CASHIER’s OFFICE
+          </h5>
+          <p class="card-text">
+            Please be informed that the University Registrar and Cashier’s Office will NOT be accepting transactions on APRIL 4 and 5 to give way for system maintenance. Transactions will resume after the holy week.
+            <br>
+            Please be guided accordingly.
+            <br>
+            Thank you
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-content">
+      <!-- Logo and Text -->
+      <div class="footer-logo">
+        <div class="logo-container">
+          <img src="Photos/cvSU logo.png" alt="Logo">
+          <h4>Cavite State University</h4>
+        </div>
+        <p class="footer-description">Municipality of Indang ,Cavite</p>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="footer-contact">
+        <h5>Contact Us:</h5>
+        <ul>
+          <li><i class="bi bi-tablet-landscape-fill"></i>(046) 862-0850</li>
+          <li><i class="bi bi-telephone-fill"></i>+639989372020/+6399599715511</li>
+          <li><i class="fa-solid fa-envelope"></i>ovpre.cvsu@gmail.com</li>
+        </ul>
+      </div>
+
+      <!-- Social Media Icons -->
+      <div class="footer-social">
+        <h5>Other Links:</h5>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/CaviteStateU"><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright Section -->
+    <hr>
+    <div class="footer-copyright">
+      <p>2024 Cavite State University | Indang Cavite,
+                   Philippines
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script>
+  document.getElementById("menu-toggle").addEventListener("click", function() {
+document.getElementById("side-menu").classList.add("show");
+});
+
+document.getElementById("menu-exit").addEventListener("click", function() {
+document.getElementById("side-menu").classList.remove("show");
+});
+
+window.addEventListener("resize", function() {
+if (window.innerWidth >= 993) {
+  document.getElementById("side-menu").classList.remove("show");
+}
+});
+
+</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"></script>
+</body>
+</html>
